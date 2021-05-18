@@ -12,8 +12,21 @@
   </head>
 
   <body>
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">DevMatch</a>
+        <div>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="container">
-    <%= yield %>
+      <%= yield %>
     </div>
   </body>
 </html>
