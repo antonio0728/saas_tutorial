@@ -20,3 +20,14 @@
  h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
  }
+
+
+ .nav-tabs > li {
+   float:none;
+   display:inline-block;
+   zoom:1;
+}
+
+.nav-tabs {
+   text-align:right;
+}
